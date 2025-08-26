@@ -1,6 +1,9 @@
 name: 03 Sacloud Apprun Actions
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
